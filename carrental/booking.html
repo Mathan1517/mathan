@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="b.css">
+<head>
+    <!-- ... (head content) ... -->
+</head>
+<body>
+    <div class="form-container">
+        <form action="process_booking.php" method="post">
+            <!-- Location -->
+            <div class="input-box">
+                <span>Location</span>
+                <input type="text" name="location" placeholder="Enter location" required>
+            </div>
+
+            <!-- Pick-Up Date -->
+            <div class="input-box">
+                <span>Pick-Up Date</span>
+                <input type="date" name="pick_up_date" required>
+            </div>
+
+            <!-- Return Date -->
+            <div class="input-box">
+                <span>Return Date</span>
+                <input type="date" name="return_date" required>
+            </div>
+
+            <!-- Submit Button -->
+            <input type="submit" value="Book Now" class="btn">
+        </form>
+    </div>
+</body>
+</html>
